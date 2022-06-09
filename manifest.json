@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "New Tab Page for blog",
+  "version": "1.0",
+  "description": "Customized new tab page",
+  "author": "Divyesh Garg",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "icons": {
+    "48": "images/logo.PNG"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

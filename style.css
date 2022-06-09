@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    background: url("images/scenery.jpg");
+    background-position: 0 0;
+    background-size: 100%;
+}
+
+#footer {
+    color: cyan;
+    padding-right: 1%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 1.7rem;
+    text-align: right;
+    position: absolute;
+    bottom: 20px;
+    right: 0;
+}
+
+#quote {
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    width: 600px;
+    height: 45px;
+    background: none;
+    border: solid #563756;
+    border-width: 0px 0px 3px 0px;
+    font-size: xx-large;
+    text-align: center;
+    opacity: 100%;
+    color: #262819;
+}
+
+#quote:focus {
+    outline: none;
+}
+
+#date {
+    font-size: large;
+    color: #262819;
+    text-align: center;
+}
